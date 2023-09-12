@@ -85,7 +85,7 @@ const Main = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts ">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/payment">
                 <span>
                   <FaPaypal></FaPaypal>
                 </span>{" "}
@@ -93,7 +93,7 @@ const Main = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts ">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/settings">
                 <span>
                   <FaCog></FaCog>
                 </span>{" "}

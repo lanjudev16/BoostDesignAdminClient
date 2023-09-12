@@ -33,6 +33,14 @@ const router = createBrowserRouter([
       {
         path:"/transaction",
         element:<Transaction></Transaction>
+      },
+      {
+        path:"/payment",
+        element:<Home></Home>
+      },
+      {
+        path:"/settings",
+        element:<Home></Home>
       }
     ]
   },
