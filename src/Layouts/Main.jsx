@@ -61,7 +61,7 @@ const Main = () => {
               <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts "></NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to='/orderList'>
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to='/admin/orderList'>
                 <span>
                   <FaShoppingCart></FaShoppingCart>
                 </span>{" "}
@@ -69,7 +69,15 @@ const Main = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts" to="/customerManage">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to='/admin/importantElement'>
+                <span>
+                  <FaShoppingCart></FaShoppingCart>
+                </span>{" "}
+                <span>Element</span>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts" to="/admin/customerManage">
                 <span>
                   <FaProductHunt></FaProductHunt>
                 </span>{" "}
@@ -77,7 +85,7 @@ const Main = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/transaction">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/admin/transaction">
                 <span>
                   <FaShippingFast></FaShippingFast>
                 </span>{" "}
@@ -85,15 +93,16 @@ const Main = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/payment">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/admin/payment">
                 <span>
                   <FaPaypal></FaPaypal>
                 </span>{" "}
                 <span>Payments</span>
               </NavLink>
             </li>
+
             <li>
-              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/settings">
+              <NavLink className="text-[#A7B7DD] bg-transparent text-[14px] font-medium customFonts " to="/admin/settings">
                 <span>
                   <FaCog></FaCog>
                 </span>{" "}
